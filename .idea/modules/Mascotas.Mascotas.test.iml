@@ -27,7 +27,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Mascotas.Mascotas.main~1" />
+    <orderEntry type="module" module-name="Mascotas.Mascotas.main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.7.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jdbc:2.7.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:2.7.0" level="project" />

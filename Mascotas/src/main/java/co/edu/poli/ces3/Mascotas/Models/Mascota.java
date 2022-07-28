@@ -25,23 +25,21 @@ public class Mascota {
     private String vacunado;
     @Column(name = "esterilizado")
     private String esterilizado;
+    @Column(name = "created_at",updatable = false,nullable = false)
     @CreationTimestamp
-    @Column(name = "created_at",updatable = false)
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
-    //@Temporal(TemporalType.TIMESTAMP)
-    private Date  createdAt;
-    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
-    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
-    @UpdateTimestamp
+    private LocalDateTime createdAt;
     @Column(name = "updated_at")
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date updatedAt;
+    @UpdateTimestamp
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
+    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime updatedAt;
 
     public Mascota() {
     }
 
-    public Mascota(int id, String nombre, String descripcion, String raza, String vacunado, String esterilizado, Date createdAt, Date updatedAt) {
+    public Mascota(int id, String nombre, String descripcion, String raza, String vacunado, String esterilizado, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.id = id;
         this.nombre = nombre;
         this.descripcion = descripcion;
@@ -100,19 +98,19 @@ public class Mascota {
         this.esterilizado = esterilizado;
     }
 
-    public Date getCreatedAt() {
+    public LocalDateTime getCreatedAt() {
         return createdAt;
     }
 
-    public void setCreatedAt(Date createdAt) {
+    public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
 
-    public Date getUpdatedAt() {
+    public LocalDateTime getUpdatedAt() {
         return updatedAt;
     }
 
-    public void setUpdatedAt(Date updatedAt) {
+    public void setUpdatedAt(LocalDateTime updatedAt) {
         this.updatedAt = updatedAt;
     }
 }

@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Mascotas.iml" filepath="$PROJECT_DIR$/.idea/Mascotas.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mascotas.Mascotas.iml" filepath="$PROJECT_DIR$/.idea/modules/Mascotas.Mascotas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mascotas.Mascotas.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/Mascotas.Mascotas.main~1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mascotas.Mascotas.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/Mascotas.Mascotas.test~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mascotas.Mascotas.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Mascotas.Mascotas.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mascotas.Mascotas.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Mascotas.Mascotas.test.iml" />
     </modules>
   </component>
 </project>

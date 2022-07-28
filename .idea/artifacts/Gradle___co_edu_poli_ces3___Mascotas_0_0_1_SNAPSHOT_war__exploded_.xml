@@ -12,10 +12,10 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/Mascotas/build/libs/exploded/Mascotas-0.0.1-SNAPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="Mascotas.Mascotas.main~1/web/Web Gradle : Mascotas-0.0.1-SNAPSHOT.war" />
+      <element id="javaee-facet-resources" facet="Mascotas.Mascotas.main/web/Web Gradle : Mascotas-0.0.1-SNAPSHOT.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="Mascotas.Mascotas.main~1" />
+          <element id="module-output" name="Mascotas.Mascotas.main" />
           <element id="dir-copy" path="$PROJECT_DIR$/Mascotas/build/resources/main" />
         </element>
         <element id="directory" name="lib">
